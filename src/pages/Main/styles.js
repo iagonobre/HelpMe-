@@ -87,8 +87,7 @@ button {
 
 button:hover  {
     transition: 0.5s;
-    background: #A25BFF;
-    border: 4px solid white;
+    border: 2px solid white;
   }
 `
 
