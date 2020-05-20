@@ -1,18 +1,18 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: linear-gradient(45deg, #C779FF, #D979FF);
+  background: linear-gradient(95deg, #925BF9, #B25AFA);
   width: 500px;
   height: 600px;
   align-items: center;
   position: fixed;
+  opacity: 95%;
   top: 0; 
   bottom: 0;
   left: 0; 
   right: 0;
   margin: auto;
   border-radius: 10px;
-  opacity: 90%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 

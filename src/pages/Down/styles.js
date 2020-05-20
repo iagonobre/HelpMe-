@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: linear-gradient(45deg, #896DB4, #893DB4);
+  background: linear-gradient(95deg, #925BF9, #B25AFA);
   width: 500px;
   height: 600px;
   align-items: center;
