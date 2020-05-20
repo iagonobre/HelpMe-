@@ -84,6 +84,12 @@ button {
   width: 300px;
   height: 50px;
 }
+
+button:hover  {
+    transition: 0.5s;
+    background: #A25BFF;
+    border: 4px solid white;
+  }
 `
 
 export const Books = styled.div`
