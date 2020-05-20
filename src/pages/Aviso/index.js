@@ -5,16 +5,17 @@ import { IoIosArrowBack } from 'react-icons/io'
 import { Link, useLocation } from 'react-router-dom'
 
 function Avisos() {
-
   function useQuery() {
     return new URLSearchParams(useLocation().search);
   }
 
-  let query = useQuery()
+  let query = useQuery();
+  let page = query.get("page");
+
   return (
     <Container>
       <Topborder>
-        <Link to="/downloads">
+        <Link to={query.get("page")}>
           <IoIosArrowBack />
           <p>Voltar</p>
         </Link>
@@ -40,7 +41,11 @@ function Avisos() {
         </Links>
       </Text>
       <Botoes>
-        <form action={query.get("link")}><button type="submit">Estou ciente!</button></form>
+        <form target="_blank" action={query.get("link")}>
+          <button type="submit">
+            Estou ciente!
+          </button>
+        </form>
       </Botoes>
     </Container >
   );

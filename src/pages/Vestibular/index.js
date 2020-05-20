@@ -16,11 +16,21 @@ function Apostilas() {
       </Topborder>
       <Text>Escolha uma opção abaixo:</Text>
       <Botoes>
-        <form target="_blank" action="https://www.mediafire.com/file/zbhysktb37sl9yf/CONTE%DADOS_ENEM.pdf/file"><button>CONTEÚDOS - ENEM</button></form>
-        <form target="_blank" action="https://www.mediafire.com/file/5kxa5si3k471dxy/Cronograma_@motivanosestudos.pdf/file"><button>CRONOGRAMA - ENEM</button></form>
-        <form target="_blank" action="https://www.mediafire.com/file/bhzyh6xdjio9mjv/PROVAS_ENEM.zip/file"><button>PROVAS - ENEM</button></form>
-        <form target="_blank" action="https://www.mediafire.com/file/uics49wg814vhgv/QUEST%D5ES_-_ENEM%2C_FUVEST_E_UNICAMP.zip/file"><button>PROVAS - VESTIBULARES</button></form>
-        <form target="_blank" action="http://www.mediafire.com/file/cfabcq8b0qe9li9/REDA%25C3%2587%25C3%2583O.zip/file"><button>REDAÇÃO</button></form>
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/zbhysktb37sl9yf/CONTE%DADOS_ENEM.pdf/file&page=/downloads/vestibular">
+          <button>CONTEÚDOS ENEM</button>
+        </Link>
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/5kxa5si3k471dxy/Cronograma_@motivanosestudos.pdf/file&page=/downloads/vestibular">
+          <button>CRONOGRAMA - ENEM</button>
+        </Link>
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/bhzyh6xdjio9mjv/PROVAS_ENEM.zip/file&page=/downloads/vestibular">
+          <button>PROVAS - ENEM</button>
+        </Link>
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/uics49wg814vhgv/QUEST%D5ES_-_ENEM%2C_FUVEST_E_UNICAMP.zip/file&page=/downloads/vestibular">
+          <button>PROVAS - VESTIBULARES</button>
+        </Link>
+        <Link to="/downloads/aviso/?link=http://www.mediafire.com/file/cfabcq8b0qe9li9/REDA%25C3%2587%25C3%2583O.zip/file&page=/downloads/vestibular">
+          <button>REDAÇÃO</button>
+        </Link>
       </Botoes>
     </Container>
   );

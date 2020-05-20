@@ -16,11 +16,15 @@ function Apostilas() {
       </Topborder>
       <Text>Escolha uma opção abaixo:</Text>
       <Botoes>
-        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/z9ds1n466b7cafb/APOSTILA_BERNOULLI.zip/file">
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/z9ds1n466b7cafb/APOSTILA_BERNOULLI.zip/file&page=/downloads/apostilas">
           <button>APOSTILA BERNOULLI</button>
         </Link>
-        <form target="_blank" action="http://www.mediafire.com/file/t9ahw8rkv5pjj88/APOSTILA_HEXAG.zip/file"><button>APOSTILA HEXAG</button></form>
-        <form target="_blank" action="https://www.mediafire.com/file/cbixirn5qd28wqd/DESCOMPLICA.zip/file"><button>APOSTILA DESCOMPLICA</button></form>
+        <Link to="/downloads/aviso/?link=http://www.mediafire.com/file/t9ahw8rkv5pjj88/APOSTILA_HEXAG.zip/file&page=/downloads/apostilas">
+          <button>APOSTILA HEXAG</button>
+        </Link>
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/cbixirn5qd28wqd/DESCOMPLICA.zip/file&page=/downloads/apostilas">
+          <button>APOSTILA DESCOMPLICA</button>
+        </Link>
       </Botoes>
     </Container>
   );

@@ -18,12 +18,13 @@ function Down() {
       </Topborder>
       <Text>Escolha uma opção abaixo:</Text>
       <Botoes>
-        <form id="form" target="_blank" action="https://drive.google.com/drive/folders/1ttj-ZDQT3Uvbm3dAIR40fVB5kYSE9K8m?usp=sharing"></form>
-        <button type="submit" form="form">
-          <AiOutlineDownload />
-          <br />
-          DRIVE
-        </button>
+        <Link to="/downloads/aviso/?link=https://drive.google.com/drive/folders/1ttj-ZDQT3Uvbm3dAIR40fVB5kYSE9K8m?usp=sharing&page=/downloads/">
+          <button>
+            <AiOutlineDownload />
+            <br />
+            DRIVE
+          </button>
+        </Link>
 
         <Link to="/downloads/apostilas">
           <button>
@@ -66,7 +67,7 @@ function Down() {
         </Link>
 
       </Botoes>
-    </Container>
+    </Container >
   );
 }
 

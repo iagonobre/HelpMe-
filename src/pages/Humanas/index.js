@@ -16,9 +16,15 @@ function Apostilas() {
       </Topborder>
       <Text>Escolha uma opção abaixo:</Text>
       <Botoes>
-        <form target="_blank" action="https://www.mediafire.com/file/us42p5ph3jr3ofs/FILOSOFIA_E_SOCIOLOGIA.zip/file"><button type="submit">FILOSOFIA E SOCIOLOGIA</button></form>
-        <form target="_blank" action="https://www.mediafire.com/file/l8ppi35xpvk6nej/GEOGRAFIA_E_GEOPOL%CDTICA.zip/file"><button type="submit">GEOGRAFIA E GEOPOLÍTICA</button></form>
-        <form target="_blank" action="https://www.mediafire.com/file/i3gj08e6hvyvl4a/HIST%D3RIA.zip/file"><button type="submit">HISTÓRIA</button></form>
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/us42p5ph3jr3ofs/FILOSOFIA_E_SOCIOLOGIA.zip/file&page=/downloads/humanas">
+          <button>FILOSOFIA E SOCIOLOGIA</button>
+        </Link>
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/l8ppi35xpvk6nej/GEOGRAFIA_E_GEOPOL%CDTICA.zip/file&page=/downloads/humanas">
+          <button>GEOGRAFIA E GEOPOLÍTICA</button>
+        </Link>
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/i3gj08e6hvyvl4a/HIST%D3RIA.zip/file&page=/downloads/humanas">
+          <button>HISTÓRIA</button>
+        </Link>
       </Botoes>
     </Container>
   );

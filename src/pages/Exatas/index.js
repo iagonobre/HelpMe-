@@ -16,10 +16,18 @@ function Apostilas() {
       </Topborder>
       <Text>Escolha uma opção abaixo:</Text>
       <Botoes>
-        <form target="_blank" action="https://www.mediafire.com/file/lnteemac570jt5z/F%CDSICA.zip/file"><button type="submit">FÍSICA</button></form>
-        <form target="_blank" action="https://www.mediafire.com/file/kq3f459l268vv4f/BIOLOGIA.zip/file"><button type="submit">BIOLOGIA</button></form>
-        <form target="_blank" action="https://www.mediafire.com/file/zk0vpgjuywxmw6s/MATEM%C1TICA.zip/file"><button type="submit">MATEMÁTICA</button></form>
-        <form target="_blank" action="https://www.mediafire.com/file/y42omrv56jlgg2t/QU%CDMICA.zip/file"><button type="submit">QUÍMICA</button></form>
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/lnteemac570jt5z/F%CDSICA.zip/file&page=/downloads/exatas">
+          <button>FÍSICA</button>
+        </Link>
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/kq3f459l268vv4f/BIOLOGIA.zip/file&page=/downloads/exatas">
+          <button>BIOLOGIA</button>
+        </Link>
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/zk0vpgjuywxmw6s/MATEM%C1TICA.zip/file&page=/downloads/exatas">
+          <button>MATEMÁTICA</button>
+        </Link>
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/y42omrv56jlgg2t/QU%CDMICA.zip/file&page=/downloads/exatas">
+          <button>QUÍMICA</button>
+        </Link>
       </Botoes>
     </Container>
   );

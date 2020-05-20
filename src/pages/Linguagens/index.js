@@ -16,10 +16,18 @@ function Apostilas() {
       </Topborder>
       <Text>Escolha uma opção abaixo:</Text>
       <Botoes>
-        <form target="_blank" action="https://www.mediafire.com/file/8gff0fjrinm3ff1/PORTUGU%CAS.zip/file"><button>PORTUGUÊS</button></form>
-        <form target="_blank" action="https://www.mediafire.com/file/3vat2iwsu9jq7co/LITERATURA.zip/file"><button>LITERATURA</button></form>
-        <form target="_blank" action="http://www.mediafire.com/file/7ceybce297wnw87/ARTES.zip/file"><button>ARTES</button></form>
-        <form target="_blank" action="https://www.mediafire.com/file/7uix59nkezb3nv6/INGL%CAS_E_ESPANHOL.zip/file"><button>INGLÊS E ESPANHOL</button></form>
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/8gff0fjrinm3ff1/PORTUGU%CAS.zip/file&page=/downloads/linguagens">
+          <button>PORTUGUÊS</button>
+        </Link>
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/3vat2iwsu9jq7co/LITERATURA.zip/file&page=/downloads/linguagens">
+          <button>LITERATURA</button>
+        </Link>
+        <Link to="/downloads/aviso/?link=http://www.mediafire.com/file/7ceybce297wnw87/ARTES.zip/file&page=/downloads/linguagens">
+          <button>ARTES</button>
+        </Link>
+        <Link to="/downloads/aviso/?link=https://www.mediafire.com/file/7uix59nkezb3nv6/INGL%CAS_E_ESPANHOL.zip/file&page=/downloads/linguagens">
+          <button>INGLÊS E ESPANHOL</button>
+        </Link>
       </Botoes>
     </Container>
   );

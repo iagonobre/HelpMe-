@@ -9,6 +9,7 @@ import Vestibular from './pages/Vestibular'
 import Exatas from './pages/Exatas'
 import Humanas from './pages/Humanas'
 import Linguagens from './pages/Linguagens'
+import NoMatch from './pages/NoMatch'
 
 export default function Routes() {
   return (
@@ -22,6 +23,7 @@ export default function Routes() {
         <Route path="/downloads/exatas" component={Exatas} />
         <Route path="/downloads/linguagens" component={Linguagens} />
         <Route path="/downloads/humanas" component={Humanas} />
+        <Route component={NoMatch} />
       </Switch>
     </BrowserRouter>
   );
