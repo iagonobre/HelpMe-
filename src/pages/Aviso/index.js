@@ -10,7 +10,6 @@ function Avisos() {
   }
 
   let query = useQuery();
-  let page = query.get("page");
 
   return (
     <Container>
