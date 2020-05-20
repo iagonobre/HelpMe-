@@ -12,7 +12,6 @@ export const Container = styled.div`
   right: 0;
   margin: auto;
   border-radius: 10px;
-  opacity: 90%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 
