@@ -10,6 +10,7 @@ import Exatas from './pages/Exatas'
 import Humanas from './pages/Humanas'
 import Linguagens from './pages/Linguagens'
 import NoMatch from './pages/NoMatch'
+import Hexag from './pages/Hexag'
 
 export default function Routes() {
   return (
@@ -18,7 +19,8 @@ export default function Routes() {
         <Route path="/" exact component={Main} />
         <Route path="/downloads" exact component={Down} />
         <Route path="/downloads/aviso" component={Aviso} />
-        <Route path="/downloads/apostilas" component={Apostilas} />
+        <Route path="/downloads/apostilas" exact component={Apostilas} />
+        <Route path="/downloads/apostilas/hexag" component={Hexag} />
         <Route path="/downloads/vestibular" component={Vestibular} />
         <Route path="/downloads/exatas" component={Exatas} />
         <Route path="/downloads/linguagens" component={Linguagens} />
